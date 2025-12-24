@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <title>Moody</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__nav">
+          <a href="/">
+            <img
+              class="header__logo"
+              src="./images/header-logo.png"
+              alt="Логотип ресторану"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="header__menu-wrap">
+        <div class="container">
+          <ul class="header__menu">
+            <li><a class="link" href="#">About</a></li>
+            <li><a class="link" href="#">Chefs</a></li>
+            <li><a class="link" href="#">Menu</a></li>
+            <li><a class="link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="intro-section__container">
+          <div class="intro-section__content">
+            <h2 class="intro-section__title">AUTOR´S KITCHEN</h2>
+
+            <p class="intro-section__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida.
+            </p>
+          </div>
+
+          <img
+            class="intro-section__img"
+            src="./images/intro-section__img.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="section section--white">
+        <div class="container">
+          <div class="about__content">
+            <h2 class="about__title">ABOUT AS</h2>
+            <div class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+              accumsan lacus vel facilisis.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="chefs__content">
+            <h2 class="chefs__title">OUR CHEFS</h2>
+            <div class="chefs-section__slider">
+              <button
+                class="chefs-section__button carousel-button prev"
+                type="button"
+              >
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+              <div class="chefs-section__container swiper-container">
+                <ul class="swiper-wrapper">
+                  <li class="chefs-section__list swiper-slide">
+                    <article class="chef-card">
+                      <img
+                        class="chef-card__image"
+                        src="./images/chef-1.jpg"
+                        alt="Фотографія шефа"
+                      />
+                      <h3 class="chef-card__title" lang="en">Chef Caeli</h3>
+                      <div class="chef-card__text">
+                        <p></p>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="chef-card">
+                      <img
+                        class="chef-card__image"
+                        src="./images/chef-2.jpg"
+                        alt="Фотографія шефа"
+                      />
+                      <h3 class="chef-card__title" lang="en">Chef Ricardo</h3>
+                      <div class="chef-card__text">
+                        <p></p>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="chef-card">
+                      <img
+                        class="chef-card__image"
+                        src="./images/chef-3.jpg"
+                        alt="Фотографія шефа"
+                      />
+                      <h3 class="chef-card__title" lang="en">Chef Haruka</h3>
+                      <div class="chef-card__text">
+                        <p></p>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="chef-card">
+                      <img
+                        class="chef-card__image"
+                        src="./images/chef-1.jpg"
+                        alt="Фотографія шефа"
+                      />
+                      <h3 class="chef-card__title" lang="en">Chef Caeli</h3>
+                      <div class="chef-card__text">
+                        <p></p>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="chef-card">
+                      <img
+                        class="chef-card__image"
+                        src="./images/chef-2.jpg"
+                        alt="Фотографія шефа"
+                      />
+                      <h3 class="chef-card__title" lang="en">Chef Ricardo</h3>
+                      <div class="chef-card__text">
+                        <p></p>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="chef-card">
+                      <img
+                        class="chef-card__image"
+                        src="./images/chef-3.jpg"
+                        alt="Фотографія шефа"
+                      />
+                      <h3 class="chef-card__title" lang="en">Chef Haruka</h3>
+                      <div class="chef-card__text">
+                        <p></p>
+                      </div>
+                    </article>
+                  </li>
+                </ul>
+                <div class="pagination">
+                  <span class="pagination__button"></span>
+                  <span class="pagination__button"></span>
+                  <span class="pagination__button"></span>
+                </div>
+              </div>
+              <button
+                class="chefs-section__button carousel-button next"
+                type="button"
+              >
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="menu-section__container">
+          <img class="menu-section__img" src="./images/menu-img.jpg" alt="" />
+          <h2 class="menu-section__title">MENU</h2>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/chefs-slider.js"></script>
+  </body>
+</html>
