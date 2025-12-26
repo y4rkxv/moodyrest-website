@@ -156,7 +156,6 @@ ul {
   font-weight: 300;
   text-align: center;
   line-height: 0.9;
-  margin: 30px;
 }
 
 .about__text {
@@ -175,13 +174,12 @@ ul {
 }
 
 .chefs__title {
-  color: var(--color-black);
+  color: var(--color-white);
   font-size: 75px;
   font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
   text-align: center;
   line-height: 0.9;
-  margin: 30px;
 }
 
 .chefs-section__slider {
