@@ -44,13 +44,14 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
 /* Section */
 .section {
   padding: 20px 0;
 }
 .section--white {
   background-color: var(--color-white);
-  margin: 50px;
+  margin: 50px 0;
 }
 /* Container */
 .container {
@@ -105,7 +106,6 @@ ul {
   background-size: cover;
   background-position: center;
   width: 100%;
-  max-height: 750px;
 }
 
 .intro-section__content {
@@ -113,14 +113,13 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 40%;
 }
 
 .intro-section__img {
   display: block;
-  width: 40%;
-  max-width: 590px;
-  max-height: 735px;
+  width: 50%;
+  max-height: 545px;
 }
 
 .intro-section__title {
@@ -128,8 +127,8 @@ ul {
   font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
   text-align: center;
-  max-width: 420px;
-  margin-top: 125px;
+  line-height: 0.9;
+  margin: 50px;
 }
 
 .intro-section__text {
@@ -137,6 +136,7 @@ ul {
   text-align: center;
   max-width: 590px;
   font-size: 23px;
+  padding: 0 30px;
 }
 
 /* About */
@@ -155,9 +155,8 @@ ul {
   font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
   text-align: center;
-  max-width: 275px;
-  font-size: 75px;
-  margin-bottom: 75px;
+  line-height: 0.9;
+  margin: 30px;
 }
 
 .about__text {
@@ -176,14 +175,13 @@ ul {
 }
 
 .chefs__title {
-  color: var(--color-white);
+  color: var(--color-black);
   font-size: 75px;
   font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
   text-align: center;
-  max-width: 275px;
-  font-size: 75px;
-  margin-bottom: 75px;
+  line-height: 0.9;
+  margin: 30px;
 }
 
 .chefs-section__slider {
@@ -246,13 +244,6 @@ ul {
   margin-bottom: 16px;
 }
 
-/*.chef-card__text {
-  font-size: 14px;
-  font-weight: 300;
-  color: var(--color-white);
-  line-height: 1.4;
-}*/
-
 /* Carousel btn */
 .carousel-button {
   width: 44px;
@@ -304,12 +295,13 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-height: 550px;
+  min-height: 545px;
+  background: linear-gradient(145deg, #1e2024 0%, #111111 100%);
 }
 .menu-section__img {
   display: block;
   width: 60%;
-  max-height: 550px;
+  max-height: 545px;
 }
 
 .menu-section__title {
@@ -368,9 +360,7 @@ ul {
 
 .buffet__container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin-top: 75px;
@@ -382,10 +372,13 @@ ul {
 
 .buffet-card__title {
   text-align: center;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .buffet-card__text {
   text-align: center;
+  font-size: 15px;
 }
 
 /* Drinks */
@@ -449,10 +442,13 @@ ul {
 
 .drinks-card__title {
   text-align: center;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .drinks-card__text {
   text-align: center;
+  font-size: 15px;
 }
 
 /* Wine list */
@@ -466,6 +462,7 @@ ul {
 .wine-list__header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .wine-list__img {
   display: block;
@@ -473,22 +470,20 @@ ul {
   max-height: 420px;
 }
 
-.wine-list__content {
+.wine-list__header__content {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: center;
   margin: 0 40px;
   width: 40%;
 }
 
 .wine-list__title {
-  font-size: 45px;
+  font-size: 75px;
   font-family: 'Playfair Display', sans-serif;
   font-weight: 300;
   text-align: right;
   align-items: center;
-  justify-content: center;
   margin-bottom: 20px;
 }
 .wine-list__text {
@@ -498,12 +493,12 @@ ul {
   font-size: 15px;
   align-items: content;
   justify-content: center;
+  line-height: 2.5;
 }
 
 .wine-list__container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin-top: 75px;
@@ -511,12 +506,62 @@ ul {
 
 .wine-list__item {
   width: 50%;
+  max-width: 450px;
 }
 
-.wine-list__title {
+.wine-list-card__title {
+  font-size: 25px;
+  font-weight: 300;
   text-align: center;
+  align-items: center;
 }
 
-.wine-list__text {
+.wine-list-card__text {
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+/* Footer */
+
+.footer__container {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.footer__title {
+  color: var(--color-black);
+  width: 100%;
+  font-size: 75px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 0.9;
+}
+.footer__content {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.icon__footer {
+  fill: var(--color-black);
+  cursor: pointer;
+}
+
+.icon__footer:hover {
+  fill: var(--color-accents);
+}
+
+.footer__tel__number {
+  font-size: 20px;
+  color: var(--color-black);
   text-align: center;
 }
