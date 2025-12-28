@@ -1066,3 +1066,224 @@ ul {
     text-align: center;
   }
 }
+
+@media (max-width: 575px) {
+  /* Header */
+  .header__nav {
+    padding-bottom: 40px;
+  }
+  .header__logo {
+    margin-top: 20px;
+    max-width: 200px;
+  }
+
+  .header__menu-wrap {
+    width: 100%;
+  }
+
+  /* Intro */
+
+  .intro-section__container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .intro-section__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro-section__img {
+    width: 100%;
+  }
+
+  .intro-section__title {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .intro-section__text {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  /* About */
+
+  .about__title {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .about__text {
+    font-size: 12px;
+    width: 100%;
+  }
+  /* Chefs */
+
+  .chefs__title {
+    font-size: 35px;
+  }
+
+  .chef-card__title {
+    font-size: 15px;
+  }
+
+  /* Carousel btn */
+  .carousel-button {
+    display: none;
+  }
+  /* Menu */
+
+  .menu-section__container {
+    display: flex;
+    flex-direction: column;
+    background: none;
+  }
+  .menu-section__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .menu-section__title {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+  }
+
+  /* Buffet */
+  .buffet-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buffet__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buffet__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .buffet__header__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buffet__title {
+    font-size: 35px;
+    width: 100%;
+  }
+  .buffet__text {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .buffet__container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin-top: 35px;
+  }
+
+  .buffet__item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .buffet-card__title {
+    font-size: 20px;
+  }
+
+  .buffet-card__text {
+    font-size: 12px;
+  }
+
+  /* Drinks */
+  .drinks-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .drinks__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .drinks__item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .drinks__img {
+    margin-bottom: 20px;
+  }
+
+  .drinks__title {
+    font-size: 35px;
+  }
+  .drinks__text {
+    font-size: 15px;
+  }
+
+  .drinks-card__title {
+    font-size: 20px;
+  }
+
+  .drinks-card__text {
+    font-size: 12px;
+  }
+
+  /* Wine list */
+
+  .wine-list__header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .wine-list__title {
+    font-size: 35px;
+  }
+  .wine-list__text {
+    font-size: 15px;
+  }
+
+  .wine-list__container {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .wine-list__item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .wine-list-card__title {
+    font-size: 20px;
+  }
+
+  .wine-list-card__text {
+    font-size: 12px;
+  }
+
+  /* Footer */
+
+  .footer__title {
+    font-size: 35px;
+  }
+  .footer__content {
+    gap: 15px;
+  }
+
+  .footer__tel__number {
+    font-size: 12px;
+  }
+}
