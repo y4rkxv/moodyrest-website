@@ -299,7 +299,7 @@ ul {
 .menu-section__img {
   display: block;
   width: 60%;
-  max-height: 545px;
+  max-height: 100%;
 }
 
 .menu-section__title {
@@ -562,4 +562,507 @@ ul {
   font-size: 20px;
   color: var(--color-black);
   text-align: center;
+}
+
+@media (max-width: 990px) {
+  /* Link */
+  .link {
+    font-size: 17px;
+  }
+
+  /* Intro */
+
+  .intro-section__content {
+    width: 45%;
+  }
+
+  .intro-section__title {
+    font-size: 50px;
+  }
+
+  .intro-section__text {
+    font-size: 17px;
+  }
+
+  /* About */
+
+  .about__content {
+    margin: 75px;
+  }
+
+  .about__title {
+    font-size: 50px;
+  }
+
+  .about__text {
+    font-size: 17px;
+  }
+  /* Chefs */
+
+  .chefs__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chefs__title {
+    color: var(--color-white);
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 0.9;
+  }
+
+  .chef-card {
+    height: 420px;
+    padding: 24px;
+    width: 350px;
+  }
+
+  .chef-card:hover {
+    transform: scale(1.05);
+  }
+
+  .chef-card__title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--color-white);
+    margin-bottom: 16px;
+  }
+
+  /* Carousel btn */
+  .carousel-button {
+    width: 32px;
+    height: 32px;
+  }
+  .carousel-button:hover {
+    background-color: var(--color-white);
+    fill: var(--color-black);
+  }
+
+  /* Menu */
+
+  .menu-section__container {
+    margin-top: 100px;
+  }
+  .menu-section__img {
+    display: block;
+    width: 60%;
+    max-height: 100%;
+  }
+
+  .menu-section__title {
+    font-size: 50px;
+  }
+
+  /* Buffet */
+  .buffet-section {
+    margin-top: 70px;
+  }
+
+  .buffet__img {
+    width: 60%;
+    max-height: 420px;
+  }
+
+  .buffet__title {
+    font-size: 45px;
+  }
+  .buffet__text {
+    max-width: 420px;
+    font-size: 15px;
+  }
+
+  .buffet-card__title {
+    font-size: 20px;
+  }
+
+  .buffet-card__text {
+    font-size: 12px;
+  }
+
+  /* Drinks */
+
+  .drinks__img {
+    display: block;
+    width: 60%;
+    max-height: 420px;
+  }
+
+  .drinks__title {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .drinks__text {
+    font-size: 15px;
+  }
+
+  .drinks-card__title {
+    font-size: 20px;
+  }
+
+  .drinks-card__text {
+    font-size: 12px;
+  }
+
+  /* Wine list */
+
+  .wine-list__title {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .wine-list__text {
+    font-size: 12px;
+  }
+
+  .wine-list__item {
+    width: 50%;
+    max-width: 450px;
+  }
+
+  .wine-list-card__title {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .wine-list-card__text {
+    font-size: 12px;
+  }
+
+  /* Footer */
+
+  .footer__title {
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .footer__content {
+    gap: 25px;
+  }
+
+  .footer__tel__number {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 770px) {
+  /* Link */
+  .link {
+    font-size: 15px;
+  }
+
+  /* Intro */
+
+  .intro-section__container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .intro-section__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro-section__img {
+    width: 100%;
+  }
+
+  .intro-section__title {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .intro-section__text {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  /* About */
+
+  .about__content {
+    margin: 75px;
+  }
+
+  .about__title {
+    font-size: 50px;
+  }
+
+  .about__text {
+    font-size: 17px;
+  }
+  /* Chefs */
+
+  .chefs__title {
+    font-size: 50px;
+  }
+
+  .chef-card {
+    height: 375px;
+    padding: 24px;
+    width: auto;
+  }
+
+  .chef-card__title {
+    font-size: 17px;
+  }
+
+  /* Carousel btn */
+  .carousel-button {
+    display: none;
+  }
+  /* Menu */
+
+  .menu-section__container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: none;
+  }
+  .menu-section__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .menu-section__title {
+    font-size: 50px;
+    font-weight: 300;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  /* Buffet */
+  .buffet-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buffet__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buffet__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .buffet__header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    width: 100%;
+  }
+
+  .buffet__title {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .buffet__text {
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .buffet__container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+  }
+
+  .buffet__item {
+    width: 30%;
+  }
+
+  .buffet-card__title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .buffet-card__text {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* Drinks */
+  .drinks-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+
+  .drinks__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .drinks__img {
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .drinks__header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .drinks__title {
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .drinks__text {
+    text-align: center;
+    font-size: 15px;
+    align-items: content;
+    justify-content: center;
+  }
+
+  .drinks__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+
+  .drinks__item {
+    width: 30%;
+  }
+
+  .drinks-card__title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .drinks-card__text {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* Wine list */
+
+  .wine-list-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+
+  .wine-list__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wine-list__img {
+    display: block;
+    width: 100%;
+  }
+
+  .wine-list__header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .wine-list__title {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+  }
+  .wine-list__text {
+    text-align: center;
+    font-size: 15px;
+    align-items: content;
+    justify-content: center;
+  }
+
+  .wine-list__container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .wine-list__item {
+    width: 50%;
+    max-width: 450px;
+  }
+
+  .wine-list-card__title {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+  }
+
+  .wine-list-card__text {
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* Footer */
+
+  .footer__container {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0;
+  }
+
+  .footer__title {
+    color: var(--color-black);
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 0.9;
+  }
+  .footer__content {
+    gap: 20px;
+  }
+
+  .icon__footer:hover {
+    fill: var(--color-accents);
+  }
+
+  .footer__tel__number {
+    font-size: 12px;
+    color: var(--color-black);
+    text-align: center;
+  }
 }
